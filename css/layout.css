@@ -1,4 +1,75 @@
 body {
+	background-color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
-    padding-top: 70px;
+    padding-top: 55px;
   }
+
+.navbar {
+	background-color: #353A36;
+}
+
+.navbar-brand {
+	color: #FFFFFF;
+}
+
+.nav-link {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #D10010;
+}
+
+header {
+	color: #FFFFFF;
+	background-color: #353A36;
+}
+
+hr {
+	max-width: 50px;
+	border-width: 3px;
+	border-color: #D10010;
+}
+
+#about small {
+	color: #D10010;
+}
+
+.carousel-inner {
+	width:100%; 
+	height: 500px !important;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+#contact {
+	color: #FFFFFF;
+	background-color: #353A36;
+}
+
+.btn {
+	color: #D10010;
+	border-color: #D10010;
+}
+
+.btn:hover {
+	border-color: #D10010;
+	background-color: #D10010;
+}
+
+ol.carousel-indicators li {
+	background: #353A36;
+}
+
+ol.carousel-indicators li.active {
+	background: #D10010;
+}
